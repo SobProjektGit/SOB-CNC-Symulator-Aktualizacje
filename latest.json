@@ -1,0 +1,29 @@
+{
+  "app": "SOB-CNC Symulator",
+  "version": "1.5.0",
+  "date": "2026-10-26",
+  "notes": [
+    "Aktualizacje z programu: sprawdzanie przy uruchomieniu, pobranie i instalacja na obecnej wersji jednym kliknięciem (bez odinstalowywania)",
+    "Ustawienia → Aktualizacje: wersja, „Sprawdź teraz”, strona z instalatorami"
+  ],
+  "file": "SOB-CNC-Symulator-Setup-1.5.0.exe",
+  "size": 107715464,
+  "sha256": "356810b907c99d86d6a80ff8b97f2142a20753a52cb121009ee128fab0b98aa6",
+  "parts": [
+    {
+      "name": "SOB-CNC-Symulator-Setup-1.5.0.exe.czesc00",
+      "size": 41943040,
+      "sha256": "abead196c1c20cc62e13415f933c541d2ece3b6fa3915d2ae89fa7a8899be39a"
+    },
+    {
+      "name": "SOB-CNC-Symulator-Setup-1.5.0.exe.czesc01",
+      "size": 41943040,
+      "sha256": "b5bf61acd38f262d1f9e89d5154af19e78c42f1b06dbd2b1bd92d3f57b19ea63"
+    },
+    {
+      "name": "SOB-CNC-Symulator-Setup-1.5.0.exe.czesc02",
+      "size": 23829384,
+      "sha256": "8ecfbe10cb670e67cfa6c596327117a58c118d82fac0c858d74a82158c56a5bb"
+    }
+  ]
+}
