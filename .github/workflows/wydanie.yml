@@ -1,0 +1,37 @@
+# Po wypchnieciu nowej wersji: skleja czesci instalatora i publikuje go w calosci jako wydanie (Release).
+# Stale linki do pobrania:
+#   https://github.com/SobProjektGit/SOB-CNC-Symulator-wydania/releases/latest/download/SOB-CNC-Symulator-Setup.exe
+#   https://github.com/SobProjektGit/SOB-CNC-Symulator-wydania/releases/download/v<wersja>/SOB-CNC-Symulator-Setup-<wersja>.exe
+name: Wydanie
+on:
+  push:
+    branches: [main]
+    paths: [latest.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  wydanie:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sklej instalator i sprawdz sume
+        id: v
+        run: |
+          VER=$(jq -r .version latest.json)
+          FILE=$(jq -r .file latest.json)
+          SHA=$(jq -r .sha256 latest.json)
+          jq -r '.parts[].name' latest.json | xargs cat > "$FILE"
+          echo "$SHA  $FILE" | sha256sum -c -
+          cp "$FILE" SOB-CNC-Symulator-Setup.exe
+          jq -r '"Zmiany w tej wersji:\n\n" + (.notes | map("- " + .) | join("\n")) + "\n\nInstalacja: pobierz plik .exe i uruchom (bez uprawnień administratora; nowszą wersję instaluje się na starszej). Zainstalowany program aktualizuje się sam."' latest.json > notes.md
+          echo "ver=$VER" >> "$GITHUB_OUTPUT"
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+      - name: Opublikuj wydanie
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v${{ steps.v.outputs.ver }}"
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" "${{ steps.v.outputs.file }}" SOB-CNC-Symulator-Setup.exe \
+            --title "SOB-CNC Symulator ${{ steps.v.outputs.ver }}" --notes-file notes.md --latest --target "$GITHUB_SHA"
