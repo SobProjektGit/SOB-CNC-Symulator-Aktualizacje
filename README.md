@@ -1,8 +1,8 @@
-# SOB-CNC Symulator – wydania
+# SOB - CNC Symulator – wydania
 
 Symulator programów Heidenhain iTNC 530 (Klartext) – SOB-PROJEKT. To repozytorium zawiera tylko instalatory; kod źródłowy jest w repozytorium prywatnym.
 
-**Aktualna wersja: 1.6.0** (2026-11-01)
+**Aktualna wersja: 1.7.0** (2026-11-01)
 
 ## Pobierz
 
@@ -12,6 +12,8 @@ Ten link zawsze prowadzi do najnowszej wersji – można go dać każdemu. Konkr
 
 Instalacja nie wymaga uprawnień administratora; nowszą wersję instaluje się na starszej, bez odinstalowywania.
 
+Od wersji 1.7.0 program nazywa się „SOB - CNC Symulator” (wcześniej „SOB-CNC Symulator”). Instalator 1.7.0 sam zastępuje starą instalację: zamyka stary program, przenosi wybory (skrót, menu prawego przycisku, skojarzenie .H), usuwa stare skróty i starą pozycję w „Aplikacje i funkcje”. Ustawienia programu przenoszą się przy pierwszym uruchomieniu.
+
 ## Aktualizacja
 
 Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje je na obecnej wersji (Ustawienia → Aktualizacje).
@@ -19,6 +21,12 @@ Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje 
 Pliki `.czescNN`, `latest.json` i `sha256.txt` w repozytorium są dla mechanizmu aktualizacji w programie (GitHub nie przyjmuje w repozytorium plików powyżej 100 MB). Pełny instalator publikuje automatycznie akcja „Wydanie” po każdej nowej wersji.
 
 ## Zmiany
+
+### 1.7.0 (2026-11-01)
+
+- Nowa nazwa programu: SOB - CNC Symulator (okno, skrót na pulpicie, menu Start, menu prawego przycisku „Otwórz w SOB - CNC Symulator”, „Aplikacje i funkcje”, okno instalatora)
+- Aktualizacja sama zastępuje starą wersję „SOB-CNC Symulator”: bez drugiej kopii programu, skróty i wybory z instalacji (pulpit, menu prawego przycisku, otwieranie plików .H) zostają
+- Ustawienia (motyw, tło widoku, opcje symulacji, aktualizacje) przenoszą się automatycznie przy pierwszym uruchomieniu
 
 ### 1.6.0 (2026-11-01)
 
