@@ -1,29 +1,28 @@
 {
   "app": "SOB-CNC Symulator",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "date": "2026-11-01",
   "notes": [
-    "Wydanie testowe aktualizacji z programu",
-    "Numer wersji w tytule okna Ustawienia"
+    "Okno nowej wersji pokazuje się 3 s po uruchomieniu programu (wspólne dla wszystkich programów SOB-PROJEKT)"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.5.8.exe",
-  "size": 107726702,
-  "sha256": "6e29671d0cd8ebdbc428f05a48b2cd148194963fa3d4bf9917d5be393cc96deb",
+  "file": "SOB-CNC-Symulator-Setup-1.5.9.exe",
+  "size": 107704578,
+  "sha256": "dc872e39b4becdba7d671a23c6f8e0d4921a87c3b230d8e8559dd7d1a14274eb",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.8.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc00",
       "size": 41943040,
-      "sha256": "b3a02a1cebc4696005ffa1dc39169fab89ef2264822339a835004176be91ade8"
+      "sha256": "a0646fee57da9753e9ca30d2761617293823969749178a7dc2f45789978930b7"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.8.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc01",
       "size": 41943040,
-      "sha256": "5dca3d9275d6534964d090f1a17a8520edfbb14cfb84ce0f434fd326fc6a734d"
+      "sha256": "f6d961d878fb384bae0e23f45efba8a521b85cf48b07e6cb5e1b7d01de34d3a2"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.8.exe.czesc02",
-      "size": 23840622,
-      "sha256": "336032bcb18d575f956ebc1a2fd77ec620589046bf233d7d9e1b8fe929edd6b5"
+      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc02",
+      "size": 23818498,
+      "sha256": "872e8bbe28d8b3130772987db4389adf316f8fcb3673cbb3437c119185f7c124"
     }
   ]
 }
