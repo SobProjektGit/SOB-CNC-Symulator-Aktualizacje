@@ -1,4 +1,4 @@
-b3548067c73e7afa17f498cc12439c123187988a1a2e47d0d4ec62e56ad91177  SOB-CNC-Symulator-Setup-1.5.2.exe
-e52301e922d1a0727fea9bd30bf26585cf48eccb51103c0fec66121efb46494f  SOB-CNC-Symulator-Setup-1.5.2.exe.czesc00
-6e8216621cb622dbf0762b96dfcbd621b06976deaadc0bf1151efb9448437f39  SOB-CNC-Symulator-Setup-1.5.2.exe.czesc01
-80dbd1046e6287494f26cc9baf89341dcdf0452f9e33a9f4c1b1c40e9e02236b  SOB-CNC-Symulator-Setup-1.5.2.exe.czesc02
+e0750b15e6badd05924634c1c197fd0f0155c87bab2138d981f72fa05196e37a  SOB-CNC-Symulator-Setup-1.5.3.exe
+f9ace4f9d8dcee5a991ebb20327cd0d930ffe53eac68a96e02f2386cbd32083c  SOB-CNC-Symulator-Setup-1.5.3.exe.czesc00
+c4b0a8dbd19844b57c21c2a4f095f5e5d98d5f9755ab02829faaa3f4b38d2fe0  SOB-CNC-Symulator-Setup-1.5.3.exe.czesc01
+c05e1922b30d55176bde733073e3562a71b40f64920e3da367411c13f6b93987  SOB-CNC-Symulator-Setup-1.5.3.exe.czesc02

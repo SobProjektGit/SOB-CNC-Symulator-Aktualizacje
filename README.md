@@ -2,7 +2,7 @@
 
 Symulator programów Heidenhain iTNC 530 (Klartext) – SOB-PROJEKT. To repozytorium zawiera tylko instalatory; kod źródłowy jest w repozytorium prywatnym.
 
-**Aktualna wersja: 1.5.2** (2026-11-01)
+**Aktualna wersja: 1.5.3** (2026-11-01)
 
 ## Pobierz
 
@@ -19,6 +19,12 @@ Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje 
 Pliki `.czescNN`, `latest.json` i `sha256.txt` w repozytorium są dla mechanizmu aktualizacji w programie (GitHub nie przyjmuje w repozytorium plików powyżej 100 MB). Pełny instalator publikuje automatycznie akcja „Wydanie” po każdej nowej wersji.
 
 ## Zmiany
+
+### 1.5.3 (2026-11-01)
+
+- Symulacja liczona raz i zapamiętywana: przełączanie mocowań i przewijanie do przodu korzysta z zapamiętanych stanów zamiast liczyć od początku
+- Ścieżki mocowań przygotowywane raz i zapamiętywane
+- Przycisk „⟳ Przelicz” na dolnym pasku – przeliczenie wszystkiego od nowa na żądanie
 
 ### 1.5.2 (2026-11-01)
 

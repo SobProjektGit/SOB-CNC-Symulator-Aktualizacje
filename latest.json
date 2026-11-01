@@ -1,30 +1,30 @@
 {
   "app": "SOB-CNC Symulator",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "date": "2026-11-01",
   "notes": [
-    "Kliknięcie zakładki mocowania przenosi symulację na początek tego mocowania: materiał, ścieżka i pasek czasu dotyczą wybranego mocowania",
-    "Pasek w widoku 3D (⟲X ⟲Y ⟲Z, Dopasuj) działa na bieżące mocowanie – nazwa mocowania widoczna na pasku",
-    "Po zmianie ustawienia mocowania symulacja zostaje w tym mocowaniu (nie wraca na koniec poprzedniego)"
+    "Symulacja liczona raz i zapamiętywana: przełączanie mocowań i przewijanie do przodu korzysta z zapamiętanych stanów zamiast liczyć od początku",
+    "Ścieżki mocowań przygotowywane raz i zapamiętywane",
+    "Przycisk „⟳ Przelicz” na dolnym pasku – przeliczenie wszystkiego od nowa na żądanie"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.5.2.exe",
-  "size": 107706547,
-  "sha256": "b3548067c73e7afa17f498cc12439c123187988a1a2e47d0d4ec62e56ad91177",
+  "file": "SOB-CNC-Symulator-Setup-1.5.3.exe",
+  "size": 107697056,
+  "sha256": "e0750b15e6badd05924634c1c197fd0f0155c87bab2138d981f72fa05196e37a",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.5.3.exe.czesc00",
       "size": 41943040,
-      "sha256": "e52301e922d1a0727fea9bd30bf26585cf48eccb51103c0fec66121efb46494f"
+      "sha256": "f9ace4f9d8dcee5a991ebb20327cd0d930ffe53eac68a96e02f2386cbd32083c"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.5.3.exe.czesc01",
       "size": 41943040,
-      "sha256": "6e8216621cb622dbf0762b96dfcbd621b06976deaadc0bf1151efb9448437f39"
+      "sha256": "c4b0a8dbd19844b57c21c2a4f095f5e5d98d5f9755ab02829faaa3f4b38d2fe0"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc02",
-      "size": 23820467,
-      "sha256": "80dbd1046e6287494f26cc9baf89341dcdf0452f9e33a9f4c1b1c40e9e02236b"
+      "name": "SOB-CNC-Symulator-Setup-1.5.3.exe.czesc02",
+      "size": 23810976,
+      "sha256": "c05e1922b30d55176bde733073e3562a71b40f64920e3da367411c13f6b93987"
     }
   ]
 }
