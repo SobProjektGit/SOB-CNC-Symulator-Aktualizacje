@@ -1,28 +1,30 @@
 {
   "app": "SOB-CNC Symulator",
-  "version": "1.5.1",
-  "date": "2026-10-27",
+  "version": "1.5.2",
+  "date": "2026-11-01",
   "notes": [
-    "Repozytorium instalatorów ma nową nazwę: SOB-CNC-Symulator-wydania (jednolite nazewnictwo z SOB-CAD-VIEWER-wydania); program sprawdza aktualizacje pod nowym adresem"
+    "Kliknięcie zakładki mocowania przenosi symulację na początek tego mocowania: materiał, ścieżka i pasek czasu dotyczą wybranego mocowania",
+    "Pasek w widoku 3D (⟲X ⟲Y ⟲Z, Dopasuj) działa na bieżące mocowanie – nazwa mocowania widoczna na pasku",
+    "Po zmianie ustawienia mocowania symulacja zostaje w tym mocowaniu (nie wraca na koniec poprzedniego)"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.5.1.exe",
-  "size": 107702414,
-  "sha256": "643f9ce5a86c90c4bbafd1516eb4a2d3bd85f34da92a032545ee305ac5bd2acb",
+  "file": "SOB-CNC-Symulator-Setup-1.5.2.exe",
+  "size": 107706547,
+  "sha256": "b3548067c73e7afa17f498cc12439c123187988a1a2e47d0d4ec62e56ad91177",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.1.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc00",
       "size": 41943040,
-      "sha256": "7883cd40616e2318f68116cb8c2f2145c2e87b695eea8bb8ed808598d7a74fd4"
+      "sha256": "e52301e922d1a0727fea9bd30bf26585cf48eccb51103c0fec66121efb46494f"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.1.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc01",
       "size": 41943040,
-      "sha256": "32484567e799594e7000de3c21d134c9955183e7e065c9f7e73e9d6f96c6814e"
+      "sha256": "6e8216621cb622dbf0762b96dfcbd621b06976deaadc0bf1151efb9448437f39"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.1.exe.czesc02",
-      "size": 23816334,
-      "sha256": "5731f2e4587b15c6e7858587d44aa7dc398d1281db16c2fdeda2fcf0b170e23c"
+      "name": "SOB-CNC-Symulator-Setup-1.5.2.exe.czesc02",
+      "size": 23820467,
+      "sha256": "80dbd1046e6287494f26cc9baf89341dcdf0452f9e33a9f4c1b1c40e9e02236b"
     }
   ]
 }
