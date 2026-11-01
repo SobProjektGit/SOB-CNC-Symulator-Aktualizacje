@@ -1,28 +1,29 @@
 {
   "app": "SOB-CNC Symulator",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "date": "2026-11-01",
   "notes": [
-    "Okno nowej wersji pokazuje się 3 s po uruchomieniu programu (wspólne dla wszystkich programów SOB-PROJEKT)"
+    "Sterowanie widokiem jak w SOB-CAD-VIEWER (NX): środkowy przycisk obraca wokół punktu pod kursorem (zielony krzyżyk), Shift+środkowy przesuwa, Ctrl+środkowy przybliża, kółko przybliża do kursora",
+    "Lewy klik tylko odczytuje punkt (sonda); Alt+lewy obraca, Alt+Shift+lewy przesuwa (touchpad)"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.5.9.exe",
-  "size": 107704578,
-  "sha256": "dc872e39b4becdba7d671a23c6f8e0d4921a87c3b230d8e8559dd7d1a14274eb",
+  "file": "SOB-CNC-Symulator-Setup-1.6.0.exe",
+  "size": 107712676,
+  "sha256": "356dc0016b95cafb9332ceb11c9b0b9529abac36670bf086f2a2b58bf835dd86",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.6.0.exe.czesc00",
       "size": 41943040,
-      "sha256": "a0646fee57da9753e9ca30d2761617293823969749178a7dc2f45789978930b7"
+      "sha256": "377f508a81777b62939215c66210c12ca73f6502d19b5b5dbb4b4e168a77239b"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.6.0.exe.czesc01",
       "size": 41943040,
-      "sha256": "f6d961d878fb384bae0e23f45efba8a521b85cf48b07e6cb5e1b7d01de34d3a2"
+      "sha256": "6e9dc357eea609bb24bca2de3098e517ebcbc0f4c328aa853a4b9ca6fde3fe8d"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.9.exe.czesc02",
-      "size": 23818498,
-      "sha256": "872e8bbe28d8b3130772987db4389adf316f8fcb3673cbb3437c119185f7c124"
+      "name": "SOB-CNC-Symulator-Setup-1.6.0.exe.czesc02",
+      "size": 23826596,
+      "sha256": "aa0cc1a3bd8f19488110ef70c680a3fbff91179536be1b45b47cea138cfc82b8"
     }
   ]
 }
