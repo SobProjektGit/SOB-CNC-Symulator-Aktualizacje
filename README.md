@@ -2,7 +2,7 @@
 
 Symulator programów Heidenhain iTNC 530 (Klartext) – SOB-PROJEKT. To repozytorium zawiera tylko instalatory; kod źródłowy jest w repozytorium prywatnym.
 
-**Aktualna wersja: 1.5.3** (2026-11-01)
+**Aktualna wersja: 1.5.4** (2026-11-01)
 
 ## Pobierz
 
@@ -19,6 +19,14 @@ Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje 
 Pliki `.czescNN`, `latest.json` i `sha256.txt` w repozytorium są dla mechanizmu aktualizacji w programie (GitHub nie przyjmuje w repozytorium plików powyżej 100 MB). Pełny instalator publikuje automatycznie akcja „Wydanie” po każdej nowej wersji.
 
 ## Zmiany
+
+### 1.5.4 (2026-11-01)
+
+- Mocowania skośne z bazą poza środkiem detalu (np. Y0 na krawędzi skosu, Z0 na skosie): położenie bazy wyszukiwane po otworach z programu, dokładnie co do setnych
+- Gdy jeden otwór nie ustala obrotu detalu, rozstrzyga prostokąt BLK FORM
+- Poprawka cyklu 240 z Q344 ujemnym (np. Q344=-16): nakiełkowanie/fazka szła w górę zamiast w dół
+- Zakładka Mocowania: dwuklik na karcie mocowania przechodzi do niego; przewinięcie listy zostaje
+- Porównanie z modelem po mocowaniu skośnym: tolerancja dopasowana do dokładności przeliczenia materiału (bez fałszywych podcięć)
 
 ### 1.5.3 (2026-11-01)
 
