@@ -1,30 +1,28 @@
 {
   "app": "SOB - CNC Symulator",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "date": "2026-11-01",
   "notes": [
-    "Nowa nazwa programu: SOB - CNC Symulator (okno, skrót na pulpicie, menu Start, menu prawego przycisku „Otwórz w SOB - CNC Symulator”, „Aplikacje i funkcje”, okno instalatora)",
-    "Aktualizacja sama zastępuje starą wersję „SOB-CNC Symulator”: bez drugiej kopii programu, skróty i wybory z instalacji (pulpit, menu prawego przycisku, otwieranie plików .H) zostają",
-    "Ustawienia (motyw, tło widoku, opcje symulacji, aktualizacje) przenoszą się automatycznie przy pierwszym uruchomieniu"
+    "Karta „Dostępna nowa wersja” pojawia się równo 3 s po uruchomieniu programu (wcześniej ok. 4 s)"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.7.0.exe",
-  "size": 107718463,
-  "sha256": "b8b95ddc6683dacf590156cf8690b79addc28271c154a0899b02758e2895aa75",
+  "file": "SOB-CNC-Symulator-Setup-1.7.1.exe",
+  "size": 107728389,
+  "sha256": "e65e4cc54ea287e631474123e7faba4bd69dc7fbd8ae2561a2ba3250d6b16d02",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.0.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.7.1.exe.czesc00",
       "size": 41943040,
-      "sha256": "a0c633da558fbb12d295d3cb5d13ec53d2d08e3b1ed8f2e3d16cee15c3673686"
+      "sha256": "f0d453d0d4dbe3e2d169e2baa343012292de41327e6445049e680f5c52337582"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.0.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.7.1.exe.czesc01",
       "size": 41943040,
-      "sha256": "0f6db339d732d00f78bcfb79e0fcc559b611329edaf34c24eada5f075b811767"
+      "sha256": "85b18b711dc21e4cd825fb76ab8760eec580c24dd275f4ce5822c73de39876c6"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.0.exe.czesc02",
-      "size": 23832383,
-      "sha256": "ca2e8131b58621bb2a98e4461439beb7b599632e9876c838d59cd7af5b0348b7"
+      "name": "SOB-CNC-Symulator-Setup-1.7.1.exe.czesc02",
+      "size": 23842309,
+      "sha256": "7fd11728586faa023df89143a72a59114a7f8ec83245a702275ccd616b20ad07"
     }
   ]
 }
