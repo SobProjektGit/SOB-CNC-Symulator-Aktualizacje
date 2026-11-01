@@ -34,4 +34,4 @@ jobs:
           TAG="v${{ steps.v.outputs.ver }}"
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
           gh release create "$TAG" "${{ steps.v.outputs.file }}" SOB-CNC-Symulator-Setup.exe \
-            --title "SOB-CNC Symulator ${{ steps.v.outputs.ver }}" --notes-file notes.md --latest --target "$GITHUB_SHA"
+            --title "SOB - CNC Symulator ${{ steps.v.outputs.ver }}" --notes-file notes.md --latest --target "$GITHUB_SHA"
