@@ -1,32 +1,31 @@
 {
   "app": "SOB-CNC Symulator",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "date": "2026-11-01",
   "notes": [
-    "Mocowania skośne z bazą poza środkiem detalu (np. Y0 na krawędzi skosu, Z0 na skosie): położenie bazy wyszukiwane po otworach z programu, dokładnie co do setnych",
-    "Gdy jeden otwór nie ustala obrotu detalu, rozstrzyga prostokąt BLK FORM",
-    "Poprawka cyklu 240 z Q344 ujemnym (np. Q344=-16): nakiełkowanie/fazka szła w górę zamiast w dół",
-    "Zakładka Mocowania: dwuklik na karcie mocowania przechodzi do niego; przewinięcie listy zostaje",
-    "Porównanie z modelem po mocowaniu skośnym: tolerancja dopasowana do dokładności przeliczenia materiału (bez fałszywych podcięć)"
+    "Pasek mocowań nad suwakiem: MOC1, MOC2, MOC3… z czasem i postępem, krótkie mocowania też widoczne; kliknięcie przechodzi na początek mocowania",
+    "Suwak domyślnie dla bieżącego mocowania (precyzyjne przewijanie także krótkich programów); opcja „cały program”",
+    "Podpowiedź nad suwakiem: mocowanie, narzędzie, blok i czas w miejscu kursora",
+    "Czas: bieżące mocowanie i całość"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.5.4.exe",
-  "size": 107713939,
-  "sha256": "ba88545b6654cc9dee9e79f75f6164acb6aeea744264635f9b183b94dd0aa794",
+  "file": "SOB-CNC-Symulator-Setup-1.5.5.exe",
+  "size": 107718948,
+  "sha256": "224934356f02b9c9e7fac17ffa557f8c740bd3cccfac2557c292846614996b15",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.4.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.5.5.exe.czesc00",
       "size": 41943040,
-      "sha256": "3060ba3b78ac57b513a9d00f8d73ee3b2c0fa753c5ab5e809537ab1538cba11d"
+      "sha256": "039d4a69a2a3a6e4ca9260fb392c1962e228c86a69eb1d37a9ef3fd94ccf913c"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.4.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.5.5.exe.czesc01",
       "size": 41943040,
-      "sha256": "3b6b615f4fb6bf1b2c02f55d147df67db2196dbb39cd1df166e371ccf3b61065"
+      "sha256": "3c428b909e3e22214c61441d091814c537b442b9a4eeed2491e0f353aeab8a27"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.5.4.exe.czesc02",
-      "size": 23827859,
-      "sha256": "ad552fa0d50c63dc9a10ac2e36234a26d61d57f5127d08448f3c9bfb9b870bf1"
+      "name": "SOB-CNC-Symulator-Setup-1.5.5.exe.czesc02",
+      "size": 23832868,
+      "sha256": "e60db17966792102613251cb785c058f4953afea2041b3170d8953da44075276"
     }
   ]
 }
